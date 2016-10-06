@@ -1,0 +1,22 @@
+{
+  "name": "sprite.js",
+  "version": "1.0.0",
+  "description": "sprite is a online soundboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beamosec/sprite.js.git"
+  },
+  "author": "beamosec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beamosec/sprite.js/issues"
+  },
+  "homepage": "https://github.com/beamosec/sprite.js#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
