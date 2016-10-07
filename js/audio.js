@@ -1,4 +1,4 @@
-var horse = new buzz.sound("http://www.w3schools.com/html/horse", {
+var horse = new buzz.sound("/audio/Alluptoyou.mp3", {
 	formats: ['mp3', 'ogg'], // Add wav?
     preload: true, // Preload when you can.
     loop: false
@@ -17,4 +17,15 @@ function onButtonClick(event) {
         // If this is true, we play that sound here.
         sounds[soundToPlay].play();
     }
+}
+
+var sounded = new buzz.sound("/audio/Alluptoyou.mp3") {
+    preload: true,
+    autoplay: false,
+    loop: false,
+    webAudioApi: true
+}
+
+function testSound() {
+    sounded.play();
 }
