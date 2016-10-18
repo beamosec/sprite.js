@@ -12,13 +12,16 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript"src="/js/index.js"></script>
+    <script>
+    document.getElementById("testSounded").onclick = testSound;
+    </script>
 </head>
 <body>
     
   <div class="container">
       <button class="button-primary" data-sound="horse">Button element</button>
       <button data-sound="horse">alluptoyou</button>
-      <button onclick="testSound()">Test Sound</button>
+      <button id="testSound" onclick="testSound">Test Sound</button>
   </div>
 
 </body>
